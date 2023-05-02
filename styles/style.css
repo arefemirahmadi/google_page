@@ -1,0 +1,84 @@
+/* top menu */
+#top-menu{
+    position: absolute;
+    top: 0;
+    right: 20px;
+}
+#top-menu ul li{
+    display: inline-block;
+    margin-right: 10px;
+}
+#top-menu ul li a{
+    text-decoration: none;
+    color: gray;
+}
+#top-menu ul li a:hover{
+    text-decoration: underline;
+}
+#top-menu .signbtn{
+    background-color:blue ;
+    padding: 7px 14px;
+    color: white;
+    border-radius: 2px;
+}
+#top-menu .signbtn:hover {
+text-decoration: none;
+}
+#top-menu .menubtn{
+    vertical-align: -7px;
+    opacity: 0.5;
+}
+#top-menu .menubtn:hover{
+    opacity: 1;
+}
+/* top menu */
+/* search */
+#search{
+    text-align: center;
+    width: 500px;
+    margin:150px auto;
+
+}
+#search .search-form{
+    position: relative;
+}
+#search .search-box{
+    margin-top: 30px;
+    width: 500px;
+    padding: 15px 15px 15px 40px;
+    border: 1px solid #ccc;
+    border-radius: 50px;
+    box-sizing: border-box;
+}
+#search .search-box:hover{
+    box-shadow: 1px 0 3px 2px #ccc;
+
+}
+#search .search-box:focus{
+    outline: none;
+}
+#search .search-icon{
+    width: 25px;
+    opacity: 0.5;
+    position: absolute;
+    bottom: 63px;
+    left: 10px;
+}
+#search .buttons{
+    margin-top: 20px;
+
+}
+#search .buttons .btn{
+    font-size: 14px;
+    margin-left: 10px;
+    padding:5px 10px;
+    background-color: white;
+    border-radius: 5px;
+    border: none;
+    border: 1px solid #fff; 
+}
+#search .buttons .btn:hover{
+    box-shadow: 1px 0 3px 2px #ccc;
+    border: 1px solid #ccc; 
+   
+}
